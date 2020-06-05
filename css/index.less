@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    color: #333;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+}
+.title{
+    position: relative;
+    font-size: 1.6em;
+    padding-left: 10px;
+    line-height: 2em;
+    margin-left: 10px;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 2em;
+    background-color: #FF896A;
+}
+p{
+    font-size: 1.4em;
+    padding-left: 16px;
+    strong{
+        display: block;
+    }
+}
